@@ -35,6 +35,7 @@ The **DOI Validator Skill** resolves this issue at the foundation. It provides a
 ## 🔄 How It Works
 
 ```mermaid
+%%{init: {'theme': 'neutral'} }%%
 graph TD
     A[Start: Reference Input] --> B{Has DOI?}
     B -- Yes --> C[Query CrossRef Polite Pool API]
@@ -50,8 +51,6 @@ graph TD
     F --> K[Generate Master RIS Record]
     J --> L[Output Final Confirmed Citations]
     K --> L
-    style I fill:#f9d,stroke:#33,stroke-width:2px
-    style L fill:#bbf,stroke:#33,stroke-width:2px
 ```
 
 ---
@@ -128,3 +127,29 @@ ER  -
 **Copyright (c) 2026 Muhammed Elnaggar. All rights reserved.**
 
 This repository and all its contents (including the logic, code, schemas, and packaging) are proprietary. No part of this repository may be reproduced, distributed, or transmitted in any form or by any means (including copying, modification, or incorporating into other agent skill packages) without the prior written permission of the copyright owner.
+
+---
+
+<details dir="rtl">
+<summary><b>🌍 الترجمة العربية للتعريف بالمشروع (Arabic Overview)</b></summary>
+
+# 🛡️ أداة التحقق من معرفات الـ DOI (أداة ذكاء اصطناعي أكاديمية)
+
+**نظام برميجي أكاديمي احترافي لمنع الهلوسة المرجعية وتأكيد صحة الاقتباسات البحثية تلقائياً.**
+
+---
+
+### 🌟 الميزات الرئيسية:
+* **🛑 حماية ضد الهلوسة المرجعية:** تجبر نماذج الذكاء الاصطناعي على التحقق من وجود الرقم الوثائقي الموحد (DOI) عبر قواعد البيانات الحية قبل كتابة المراجع.
+* **🎓 تنسيق مراجع APA 7th:** تدعم التنسيق التلقائي الدقيق وفق أحدث إصدارات رابطة علم النفس الأمريكية (APA الجيل السابع).
+* **📂 دعم صيغ الـ RIS الموحدة:** تولد ملفات RIS متوافقة مباشرة مع برامج إدارة المراجع الشهيرة مثل **Zotero** و **Mendeley** و **EndNote**.
+* **🔀 آلية بحث احتياطية ذكية:** تنتقل تلقائياً للبحث في قاعدة بيانات **PubMed** الطبية إذا لم يكن المرجع مسجلاً في **CrossRef**.
+
+---
+
+### ⚖️ حقوق الطبع والنشر والترخيص
+**جميع الحقوق محفوظة (c) ٢٠٢٦ محمد النجار.**
+
+هذا المستودع البرمجي ومحتوياته مملوكة لصاحبها بالكامل. لا يسمح بإعادة إنتاج أو توزيع أو تعديل أي جزء من هذا المستودع بأي شكل من الأشكال دون الحصول على إذن خطي مسبق من المالك.
+
+</details>
