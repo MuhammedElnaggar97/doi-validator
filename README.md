@@ -33,4 +33,4 @@ curl -s "https://api.crossref.org/works/{YOUR_DOI}" \
 
 Copyright (c) 2026 Muhammed Elnaggar. All rights reserved.
 
-Licensed under the [MIT License](LICENSE). Under this license, anyone is free to use, modify, and distribute this software, provided that the original copyright notice and permission notice are included in all copies or substantial portions of the software.
+This repository and all its contents are proprietary. No part of this repository may be reproduced, distributed, or transmitted in any form or by any means (including copying, modification, or incorporating into other agent skill packages) without the prior written permission of the copyright owner.
